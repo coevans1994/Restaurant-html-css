@@ -2,7 +2,7 @@
 
 Inspiration: https://majesticgrille.com/
 
-Website link: https://github.com/coevans1994/Restaurant-html-css.git
+Website link: https://coevans1994.github.io/Restaurant-html-css/
 ## User Stories
 
 Pattern:
