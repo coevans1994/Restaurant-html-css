@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Restaurant</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Dinner</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Book A Reservation</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <section class = "carousel">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./Images/Steak1.png" class="d-block w-100" alt="Tender-Steak">
+                        <div class="carousel-caption d-none d-md-block" style ="
+                                background-color: rgba(0, 0, 0, 0.3);"
+                                >
+                            
+                          <h5 class ="carousel-text">Tender Steak</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Images/Hamburger1.png" class="d-block w-100" alt="Juicy-Hamburger">
+                        <div class="carousel-caption d-none d-md-block" style ="background-color: rgba(0,0,0,0.3);">
+                          <h5 class ="carousel-text">Juicy Hamburger</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./Images/Chicken1.png" class="d-block w-100" alt="Crispy-Chicken">
+                        <div class="carousel-caption d-none d-md-block" style ="background-color: rgba(0,0,0,0.3);">
+                          <h5 class ="carousel-text">Crispy Chicken</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </section>
+              <section class = "about-section">
+                  <div>
+                      <h2 class ="about-title"> History of The Restaurant</h2>
+                          <p class = "about-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quidem natus, consectetur mollitia pariatur sint rem ea magnam explicabo voluptates fugit, placeat vero doloribus enim. Tenetur a sequi sint commodi.
+                          </p>
+                      <button class="about-button"> About Us</button>
+                  </div>
+                  <div class="dine-hall">
+                    <img src="./Images/Dining-Hall.png" class="dine-hall" alt="...">
+                  </div>
+                </section>
+        
+            <section class = "menu">
+                <div>
+                    <div class="main-heading">
+                      <h2 class="menu-heading">
+                          Dinner
+                      </h2>
+                    </div>
+                    <div class = "menu-group1">
+                            <div class = "menu-item">
+                                <img src="./Images/SteakandFries.png" alt="Steak-and-Fries" class ="menu-item-image">
+                                <div class = "menu-text">
+                                    <h3 class = "menu-iteam-heading">
+                                        <span class = "menu-name"> Steak and Fries</span>
+                                        <span class = "menu-price"> $25.00</span>
+                                    </h3>
+                                    <p class="menu-description">
+                                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quidem, similique, ipsa quod minus eius recusandae possimus corporis illum, deserunt eum? Maxime porro nam, perspiciatis assumenda facilis placeat sed delectus?
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class = "menu-item">
+                              <img src="./Images/grilled-chicken.png" alt=" Grilled Chicken" class ="menu-item-image">
+                              <div class = "menu-text">
+                                  <h3 class = "menu-iteam-heading">
+                                      <span class = "menu-name"> Grilled Chicken</span>
+                                      <span class = "menu-price"> $20.00</span>
+                                  </h3>
+                                  <p class="menu-description">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quidem, similique, ipsa quod minus eius recusandae possimus corporis illum, deserunt eum? Maxime porro nam, perspiciatis assumenda facilis placeat sed delectus?
+                                  </p>
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="menu-group2">
+                          <div class = "menu-item">
+                            <img src="./Images/Hamburger.png" alt="Classic Hamburger" class ="menu-item-image">
+                            <div class = "menu-text">
+                                <h3 class = "menu-iteam-heading">
+                                    <span class = "menu-name"> Classic Hamburger</span>
+                                    <span class = "menu-price"> $18.00</span>
+                                </h3>
+                                <p class="menu-description">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quidem, similique, ipsa quod minus eius recusandae possimus corporis illum, deserunt eum? Maxime porro nam, perspiciatis assumenda facilis placeat sed delectus?
+                                </p>
+                            </div>
+                            </div>
+                          <div class = "menu-item">
+                            <img src="./Images/Salad.png" alt="Salad" class ="menu-item-image">
+                            <div class = "menu-text">
+                                <h3 class = "menu-iteam-heading">
+                                    <span class = "menu-name"> Salad</span>
+                                    <span class = "menu-price"> $15.00</span>
+                                </h3>
+                                <p class="menu-description">
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quidem, similique, ipsa quod minus eius recusandae possimus corporis illum, deserunt eum? Maxime porro nam, perspiciatis assumenda facilis placeat sed delectus?
+                                </p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+              <section>
+                <div class = "menu-reservation">
+                  <h2 class="reservation-header"> Book A Reservation</h2>
+                  <div class ="mb-3">
+                    <label for="NameField" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="NameField" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class ="mb-3">
+                    <label for="PhoneField" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="PhoneField" />
+                  </div>
+                  <div class ="mb-3">
+                    <label for="HowField" class="form-label">How Many?</label>
+                    <input type="text" class="form-control" id="HowField" />
+                  </div>
+                  <div class ="mb-3">
+                    <label for="DateField" class="form-label">Date</label>
+                    <input type="text" class="form-control" id="DateField" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="messageTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="messageTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                      <button type="submit" class="button.submit">Make Reservation</button>
+                  </div>
+                </div>
+              </section>
+        </main>
+        <footer>
+            <div class="social-media">
+              <ul class = "social-icons">
+                  <li class="social-icon-container">
+                    <a href="#"> 
+                      <img class="social-media-icon" src="./Images/Instagram.png" alt="Instagram">
+                    </a>
+                  </li>
+                  <li class="social-icon-container">
+                    <a href="#"> 
+                      <img class="social-media-icon" src="./Images/Twitter.png" alt="Twitter">
+                    </a>
+                  </li>
+                  <li class="social-icon-container">
+                    <a href="#"> 
+                      <img class="social-media-icon" src="./Images/Facebook.png" alt="Facebook">
+                    </a>
+                  </li>
+              </ul>
+            </div>
+            <div class = "restaurant-copyright">
+                &copy; 2023 Restaurant
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script></script>
+    </body>
+</html>

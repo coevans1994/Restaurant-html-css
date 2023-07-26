@@ -1,0 +1,140 @@
+.carousel-text{
+    font-size: 80px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+    font-size: 40px;
+}
+.about-title{
+    font-size: 60px;
+    margin-top: 1.5em;
+}
+
+.main-heading{
+    text-align: center;
+    margin: 3em;
+}
+
+.menu-heading{
+    margin: 1;
+    padding-bottom: 14px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-size: 60px;
+   
+}
+.menu-group1{
+    display: inline-flex;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.menu-group2{
+    display: inline-flex;
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+
+.menu-item{
+    display: flex;
+}
+
+.menu-item-image {
+    width: 125px;
+    height: 125px;
+    margin-right: 1.5em;
+}
+
+.menu-reservation{
+    text-align: center;
+}
+
+.reservation-header{
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+mb-3{
+width: 50%;
+}
+
+.form-control{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-icon-container{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icon{
+    width: 40px;
+}
+
+.restaurant-copyright{
+    
+}
+
+/************** media queries **************/
+
+@media screen and (max-width: 992px) {
+    .about-title {
+        font-size: 50px;
+    }
+    .about-text {
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width: 766px) {
+    .dine-hall {
+        width: 300px;
+    }
+    .about-title{
+        font-size: 40px;
+    }
+    .about-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 526px) {
+    .about-text{
+        font-size: 18;
+    }
+    .about-title{
+        font-size: 30px;
+    }
+    .dine-hall{
+        width: 200px;
+    }
+    .menu-group1{
+        flex-direction: column;
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    .menu-group2{
+        flex-direction: column;
+        margin: auto;
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .about-section{
+        flex-direction: column;
+        .dine-hall{
+            margin-top: 5vw;
+        }
+    }
+}
